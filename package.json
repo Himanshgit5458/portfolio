@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "homepage": "https://himanshgit.github.io/portfolio",
+  "private": true,
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build"},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
